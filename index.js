@@ -2,6 +2,7 @@
 
 
 var kraken = require('kraken-js'),
+    millionsServed = require('./lib/millionsServed'),    
     app = {};
 
 
@@ -17,7 +18,7 @@ app.requestStart = function requestStart(server) {
 
 
 app.requestBeforeRoute = function requestBeforeRoute(server) {
-    // Fired before routing occurs
+    server.use(millionsServed());    
 };
 
 
