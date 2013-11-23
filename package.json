@@ -1,0 +1,32 @@
+{
+    "name": "kraken-example-custom-middleware",
+    "version": "0.0.1",
+    "description": "An application to show the use of custom middleware for kraken.",
+    "author": "@LennyMarkus",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "dependencies": {
+        "kraken-js": "~0.6.1",
+        "express": "~3.4.4",
+        "adaro": "~0.1.x",
+        "nconf": "~0.6.8",
+        "less": "~1.3.3",
+        "dustjs-linkedin": "~2.0.3",
+        "dustjs-helpers": "~1.1.1",
+        "makara": "~0.3.0"
+    },
+    "devDependencies": {
+        "mocha": "~1.10.0",
+        "grunt": "~0.4.1",
+
+        "grunt-contrib-less": "~0.7.0",
+        "grunt-contrib-requirejs": "~0.4.1",
+        "grunt-dustjs": "~1.1.1",
+        "grunt-contrib-clean": "~0.5.0"
+    }
+}
