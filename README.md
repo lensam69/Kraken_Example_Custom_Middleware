@@ -58,7 +58,7 @@ before the routes have been mounted.
 [See change here](https://github.com/lensam69/Kraken_Example_Custom_Middleware/commit/c7346cea7b79b92f463262c05af4c76eacc1f111)
 
 ```javascript
-app.requestStart = function requestStart(server) {
+app.requestBeforeRoute = function requestBeforeRoute(server) {
     server.use(millionsServed());
 };
 ```
